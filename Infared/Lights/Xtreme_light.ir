@@ -1,0 +1,44 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+# 
+name: Red
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+# 
+name: Dim
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9191 4423 602 535 601 536 600 537 599 538 598 538 598 538 598 539 597 539 597 1642 599 1640 601 1638 603 1638 603 1638 603 1642 610 1639 602 1645 607 537 599 1681 570 542 604 542 604 1684 609 694 598 1654 608 538 608 1636 605 534 602 1379 601 1641 600 538 598 1644 608 533 603 1641 600 105172 9088 2219 596
+# 
+name: Brighten
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00

@@ -1,0 +1,10 @@
+DELAY 1000
+GUI r
+DELAY 100
+STRING https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript
+ENTER
+DELAY 1000
+GUI r
+DELAY 100
+STRING https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads
+ENTER
